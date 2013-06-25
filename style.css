@@ -1,0 +1,12 @@
+/*
+Theme Name:     Corsham Baptist Church Theme
+Theme URI:      http://www.corshambaptists.org/
+Description:    Child theme for the Twenty Twelve theme
+Author:         Adrian Pillinger
+Author URI:     http://www.corshambaptists.org/
+Template:       twentytwelve                             
+Version:        0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
