@@ -10,3 +10,71 @@ Version:        0.1.0
 
 @import url("../twentytwelve/style.css");
 
+header h2::before, header h2::after {
+	display: inline-block;
+	content: "★";
+	color: #0397cc;
+	font-size: 0.4em;
+	padding: 0 1em;
+	position: relative;
+	top: -0.3em;
+}
+
+body {
+	font-size: 14px;
+	font-size: 1rem;
+	font-family: 'Della Respira', serif;
+	text-rendering: optimizeLegibility;
+	color: #444;
+	background-color: #f8f5ec;
+}
+body.custom-font-enabled {
+	font-family: Futura, 'Trebuchet MS', Calibri, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.site-header h1 {
+	text-transform: uppercase;
+}
+
+.site-title, .site-title a, .site-description {
+	color: #0066bf !important;
+	text-align:center !important;
+}
+
+.nav-menu li {
+	margin: 0 25px auto;
+	text-align: center;
+}
+
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	display: inline-block !important;
+	text-align: center;
+	width: 100%;
+}
+
+/* 
+main-navigation div.nav-menu > ul {
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	display: inline-block !important;
+	text-align: center;
+	width: 100%;
+}
+ */
+
+@media screen and (min-width: 960px) {
+
+	/* 
+nav.main-navigation {
+		float: right;
+	}
+	hgroup {
+		float: left;
+	}
+	.site-header:after {
+		clear: both;
+	}
+ */
+}
