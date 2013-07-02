@@ -41,6 +41,11 @@ body.custom-font-enabled {
 	text-align:center !important;
 }
 
+.nav-menu ul.children li {
+	margin: 0 auto;
+	text-align: left;
+}
+
 .nav-menu li {
 	margin: 0 25px auto;
 	text-align: center;
@@ -85,15 +90,18 @@ section.featured-content {
 
 
 .main-feature {
-  float: left;
-  width: 600px;
+	float: left;
+	width: 600px;
+	margin: 0 auto;
 }
 .main-feature img {
-  width: 600px;
-  height: 400px;
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
 }
+
 .secondary-features {
-  margin-left: 600px;
+	margin-left: 600px;
 }
 .secondary-features img {
 	-webkit-box-sizing: border-box;
@@ -104,6 +112,7 @@ section.featured-content {
 	border-color: black; */
 	width: 270px;
 	height: 180px;
+	margin: 0 auto;
 	border-radius: 0px;
 }
 
@@ -119,6 +128,7 @@ section.featured-content {
           box-sizing: border-box;
 	width: 300px;
 	height: 200px;
+	margin: 0 auto;
 	padding-left: 30px;
 }
 
