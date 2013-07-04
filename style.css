@@ -74,8 +74,8 @@ section.featured-content {
 }
 
 .featured-content {
-	width: 900px;
-	height: 400px;
+	max-width: 900px;
+	max-height: 400px;
 	padding: 10px;
 	border: 0px;
 	margin: 0 auto;
@@ -91,12 +91,11 @@ section.featured-content {
 
 .main-feature {
 	float: left;
-	width: 600px;
+	max-width: 600px;
 	margin: 0 auto;
 }
 .main-feature img {
-	width: 600px;
-	height: 400px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -110,8 +109,7 @@ section.featured-content {
 /*	border: 3px;
 	border-style: solid;
 	border-color: black; */
-	width: 270px;
-	height: 180px;
+	width: 100%;
 	margin: 0 auto;
 	border-radius: 0px;
 }
@@ -126,8 +124,8 @@ section.featured-content {
 	-webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-	width: 300px;
-	height: 200px;
+	max-width: 300px;
+	max-height: 200px;
 	margin: 0 auto;
 	padding-left: 30px;
 }
@@ -141,7 +139,6 @@ section.featured-content {
 }
 
 @media screen and (min-width: 960px) {
-
 	/* 
 nav.main-navigation {
 		float: right;
