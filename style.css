@@ -26,7 +26,7 @@ body {
 	font-family: 'Della Respira', serif;
 	text-rendering: optimizeLegibility;
 	color: #444;
-	background-color: #f8f5ec;
+	background-color: #eae3d5;
 }
 body.custom-font-enabled {
 	font-family: Futura, 'Trebuchet MS', Calibri, 'Helvetica Neue', Arial, sans-serif;
@@ -67,7 +67,7 @@ section.featured-content {
 .featured-content {
 	position: relative;
 	width: 900px;
-	height: 400px;
+	height: 410px;
 	border: 0px;
 	margin: 0 auto;
 	border-style: solid;
