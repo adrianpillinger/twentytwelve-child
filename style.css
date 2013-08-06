@@ -10,16 +10,6 @@ Version:        0.1.0
 
 @import url("../twentytwelve/style.css");
 
-header h2::before, header h2::after {
-	display: inline-block;
-	content: "★";
-	color: #0397cc;
-	font-size: 0.4em;
-	padding: 0 1em;
-	position: relative;
-	top: -0.3em;
-}
-
 body {
 	font-size: 14px;
 	font-size: 1rem;
@@ -36,6 +26,27 @@ div.entry-content {
 	font-family: 'PT Sans', serif;
 }
 
+header h2::before, header h2::after {
+	display: inline-block;
+	content: "★";
+	color: #0397cc;
+	font-size: 0.4em;
+	padding: 0 1em;
+	position: relative;
+	top: -0.3em;
+}
+
+hgroup {
+	float:left;
+	width:220px;
+	margin-bottom: 1em;
+}
+
+.main-navigation {
+	float:right;
+	margin-top: 0px;
+}
+
 .site-header h1 {
 	text-transform: uppercase;
 }
@@ -43,6 +54,14 @@ div.entry-content {
 .site-title, .site-title a, .site-description {
 	color: #0066bf !important;
 	text-align:center !important;
+}
+
+.site-description {
+	display: none;
+}
+
+.nav-menu {
+	display: none;
 }
 
 .nav-menu ul.children li {
@@ -62,13 +81,10 @@ div.entry-content {
 	text-align: center;
 	width: 100%;
 }
-
  
 section.featured-content {
 	margin-bottom: 50px;
 }
-
-
 
 .featured-content img {
 	width: 100%;
@@ -80,6 +96,25 @@ section.featured-content {
 
 
 @media screen and (min-width: 630px) {
+	
+	.site-description {
+		display: block;
+	}
+
+	hgroup {
+		float:none;
+		width:100%;
+		margin-bottom: 1em;
+	}
+
+	.main-navigation {
+		float:none;
+		margin-top: 0px;
+	}
+
+	.nav-menu {
+		display: block;
+	}
 
 	.featured-content {
 		position: relative;
