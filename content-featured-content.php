@@ -15,7 +15,7 @@
 		</div>
 		<div class="secondary-features">
 			<ul>
-				<li class="top"><a href="/?page_id=25"><img alt="Armor of God" src="<?php echo get_bloginfo('stylesheet_directory');?>/images/armour-of-god-light.jpg"></a></li>
+				<li class="top"><a href="/?page_id=25"><img alt="Corsham's Got Talent" src="<?php echo get_bloginfo('stylesheet_directory');?>/images/corshams-got-talent.jpg"></a></li>
 				<li class="bottom"><a href="/?p=100"><img alt="Recommended books" src="<?php echo get_bloginfo('stylesheet_directory');?>/images/recommended-books.jpg"></a></li>
 			</ul>
 		</div>
