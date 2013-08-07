@@ -4,11 +4,11 @@
  * Handles toggling the navigation menu for small screens.
  */
 ( function() {
-	var nav = document.getElementById( 'site-navigation' ), button, menu;
+	var nav = $('#site-navigation'), button, menu;
 	if ( ! nav )
 		return;
-	button = nav.getElementsByTagName( 'h3' )[0];
-	menu   = nav.getElementsByTagName( 'ul' )[0];
+	button = $('.menu-toggle')[0];
+	menu   = nav.find( '.nav-menu ul' )[0];
 	if ( ! button )
 		return;
 
@@ -18,23 +18,10 @@
 		return;
 	}
 	
-	$('#site-navigation').on('click', '.menu-toggle', function() {
-		$(nav).toggleClass('nav-menu');
-		$(nav).find('div.nav-menu').toggle();
+	$('#page').on('click', '.menu-toggle', function() {
+		$('.nav-menu').toggle();
 		$(button).toggleClass('toggled-on');//.toggle();
 		$(menu).toggleClass('toggled-on');//.toggle();
 	});
 
-	// button.onclick = function() {
-// 		if ( -1 == menu.className.indexOf( 'nav-menu' ) )
-// 			menu.className = 'nav-menu';
-// 
-// 		if ( -1 != button.className.indexOf( 'toggled-on' ) ) {
-// 			button.className = button.className.replace( ' toggled-on', '' );
-// 			menu.className = menu.className.replace( ' toggled-on', '' );
-// 		} else {
-// 			button.className += ' toggled-on';
-// 			menu.className += ' toggled-on';
-// 		}
-// 	};
 } )();

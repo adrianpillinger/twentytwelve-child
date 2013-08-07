@@ -42,9 +42,14 @@ hgroup {
 	margin-bottom: 1em;
 }
 
-.main-navigation {
+h3.menu-toggle {
 	float:right;
+	clear:none;
 	margin-top: 0px;
+}
+
+.menu-toggle:after {
+	clear:both;
 }
 
 .site-header h1 {
