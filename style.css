@@ -71,12 +71,15 @@ h3.menu-toggle {
 
 .nav-menu ul.children li {
 	margin: 0 auto;
-	text-align: left;
+	text-align: center;
 }
 
 .nav-menu li {
 	margin: 0 25px auto;
 	text-align: center;
+	font-size: 1em;
+	text-transform: uppercase;
+	padding-top:1em;
 }
 
 .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
@@ -93,11 +96,16 @@ section.featured-content {
 
 .featured-content img {
 	width: 100%;
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
+    margin: 2px;
 }
 
 .main-feature {
 	margin: 0 auto;
 }
+
 
 
 @media screen and (min-width: 630px) {
@@ -119,6 +127,17 @@ section.featured-content {
 
 	.nav-menu {
 		display: block;
+	}
+	
+	.nav-menu ul.children li {
+		margin: 0 auto;
+		text-align: left;
+	}
+	
+	.nav-menu li {
+		margin: 0 25px auto;
+		text-align: center;
+		font-size: 1em;
 	}
 
 	.featured-content {
