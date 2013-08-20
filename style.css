@@ -71,19 +71,19 @@ h3.menu-toggle {
 
 .nav-menu ul.children li {
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 }
 
 .nav-menu li {
-	margin: 0 25px auto;
-	text-align: center;
+	margin: 0 0 auto;
+	text-align: left;
 	font-size: 1em;
 	text-transform: uppercase;
 	padding-top:1em;
 }
 
 .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
-	border-bottom: 1px solid #ededed;
+/*	border-bottom: 1px solid #ededed;*/
 	border-top: 1px solid #ededed;
 	display: inline-block !important;
 	text-align: center;
@@ -153,8 +153,9 @@ section.featured-content {
 		margin: 0 25px auto;
 		text-align: center;
 		font-size: 1em;
+		padding-top:0em;
 	}
-
+	
 	.featured-content {
 		position: relative;
 		width: 630px;
