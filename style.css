@@ -106,6 +106,21 @@ section.featured-content {
 	margin: 0 auto;
 }
 
+.featured-content .title {
+	font-family: Futura, 'Trebuchet MS', Calibri, 'Helvetica Neue', Arial, sans-serif;
+    text-transform: uppercase;
+    margin: auto 0;
+    margin-bottom: 20px;
+}
+
+.main-feature .title {
+    text-align: right;
+}
+
+.secondary-features .title {
+    text-align: left;
+}
+
 
 
 @media screen and (min-width: 630px) {
