@@ -165,6 +165,10 @@ section.featured-content {
 		border-radius: 0px;
 		border-color: grey;
 	}
+	
+	.featured-content .title {
+		display: none;
+	}
 
 	/*
 	.featured-content img {
