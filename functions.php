@@ -16,6 +16,7 @@ function twentytwelve_child_scripts_styles()
 {
     wp_dequeue_script( 'twentytwelve-navigation' );
     wp_enqueue_script( 'twentytwelve-child-navigation', get_stylesheet_directory_uri() . '/js/navigation.js', array(), '1.0', true );
+    wp_enqueue_script( 'twentytwelve-child-polyfill', get_stylesheet_directory_uri() . '/js/respond.min.js', array(), '1.0', true );
 }
 add_action( 'wp_print_scripts', 'twentytwelve_child_scripts_styles' );
 

@@ -66,16 +66,20 @@ h3.menu-btn {
 	display: none;
 }
 
-.nav-menu {
+.menu-main-container {
 	display: none;
 }
 
-.nav-menu ul.children li {
+.menu-main-container ul.sub-menu li {
 	margin: 0 auto;
 	text-align: left;
 }
-
-.nav-menu li {
+	
+.sub-menu {
+	margin-left: 20px;
+}
+	
+li.menu-item {
 	margin: 0 0 auto;
 	text-align: left;
 	font-size: 1em;
@@ -173,16 +177,16 @@ section.featured-content {
 		display:none;
 	}
 
-	.nav-menu {
+	.menu-main-container {
 		display: block;
 	}
 	
-	.nav-menu ul.children li {
+	.menu-main-container ul.sub-menu li {
 		margin: 0 auto;
 		text-align: left;
 	}
 	
-	.nav-menu li {
+	.menu-main-container li {
 		margin: 0 25px auto;
 		text-align: center;
 		font-size: 1em;

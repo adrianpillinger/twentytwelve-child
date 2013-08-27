@@ -8,7 +8,7 @@
 	if ( ! nav )
 		return;
 	button = $('.menu-btn')[0];
-	menu   = nav.find( '.nav-menu ul' )[0];
+	menu   = nav.find( '.menu-main-container ul' )[0];
 	if ( ! button )
 		return;
 
@@ -19,7 +19,7 @@
 	}
 	
 	$('#page').on('click', '.menu-btn', function() {
-		$('.nav-menu').toggle();
+		$('.menu-main-container').toggle();
 		$(button).toggleClass('toggled-on');//.toggle();
 		$(menu).toggleClass('toggled-on');//.toggle();
 	});
