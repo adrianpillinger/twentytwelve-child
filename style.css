@@ -16,7 +16,7 @@ body {
 	font-family: 'Della Respira', serif;
 	text-rendering: optimizeLegibility;
 	color: #444;
-	background-color: #eae3d5;
+	background-color: #f4f0eb;
 }
 body.custom-font-enabled {
 	font-family: Futura, 'Trebuchet MS', Calibri, 'Helvetica Neue', Arial, sans-serif;
@@ -100,8 +100,11 @@ section.featured-content {
     border: 1px;
     border-color: gray;
     border-style: solid;
-    margin: 2px;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
+/*    margin: 2px;*/
 
 .main-feature {
 	margin: 0 auto;
