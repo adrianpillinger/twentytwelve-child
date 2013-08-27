@@ -38,17 +38,17 @@ header h2::before, header h2::after {
 
 hgroup {
 	float:left;
-	width:200px;
+	width:190px;
 	margin-bottom: 1em;
 }
 
-h3.menu-toggle {
+h3.menu-btn {
 	float:right;
 	clear:none;
 	margin-top: 0px;
 }
 
-.menu-toggle:after {
+.menu-btn:after {
 	clear:both;
 }
 
@@ -59,6 +59,7 @@ h3.menu-toggle {
 .site-title, .site-title a, .site-description {
 	color: #0066bf !important;
 	text-align:center !important;
+	font-family: Futura, serif;
 }
 
 .site-description {
@@ -121,7 +122,32 @@ section.featured-content {
     text-align: left;
 }
 
+.btn {
+	display: inline-block;
+	padding: 5px 10px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.428571429;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid 
+	transparent;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
 
+.btn-default {
+	color: #333333;
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
 
 @media screen and (min-width: 630px) {
 	
@@ -138,6 +164,10 @@ section.featured-content {
 	.main-navigation {
 		float:none;
 		margin-top: 0px;
+	}
+	
+	.menu-btn {
+		display:none;
 	}
 
 	.nav-menu {
@@ -170,12 +200,6 @@ section.featured-content {
 	.featured-content .title {
 		display: none;
 	}
-
-	/*
-	.featured-content img {
-		box-shadow: 2px 2px 8px #888888;
-	}
-	*/
 
 	.main-feature {
 		position: absolute;
