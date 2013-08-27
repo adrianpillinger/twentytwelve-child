@@ -59,7 +59,6 @@ h3.menu-btn {
 .site-title, .site-title a, .site-description {
 	color: #0066bf !important;
 	text-align:center !important;
-	font-family: Futura, serif;
 }
 
 .site-description {
@@ -88,7 +87,6 @@ li.menu-item {
 }
 
 .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
-/*	border-bottom: 1px solid #ededed;*/
 	border-top: 1px solid #ededed;
 	display: inline-block !important;
 	text-align: center;
