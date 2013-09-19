@@ -22,6 +22,10 @@ body.custom-font-enabled {
 	font-family: Futura, 'Trebuchet MS', Calibri, 'Helvetica Neue', Arial, sans-serif;
 }
 
+h1, h2 {
+	font-family: Futura, 'Trebuchet MS', Calibri, 'Helvetica Neue', Arial, sans-serif;
+}
+
 div.entry-content {
 	font-family: 'PT Sans', serif;
 }
@@ -63,6 +67,10 @@ h3.menu-btn {
 
 .site-description {
 	display: none;
+}
+
+.site-content {
+	margin: 0;
 }
 
 .menu-main-container {
