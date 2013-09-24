@@ -12,6 +12,9 @@
 ?>
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
+		<div class="logo">
+			<img src="<?php echo get_bloginfo('stylesheet_directory');?>/images/cbc-logo.png"/>
+		</div>
 		<div class="site-info">
 			<?php do_action( 'twentytwelve_credits' ); ?>
 			Registered charity number 1148492.

@@ -162,6 +162,16 @@ section.featured-content {
 	border-color: #cccccc;
 }
 
+
+.logo, .site-info {
+	margin: 0 auto; 
+	text-align: center;
+}
+
+.logo img {
+	width: 100px;
+}
+
 @media screen and (min-width: 630px) {
 	
 	.site-description {
